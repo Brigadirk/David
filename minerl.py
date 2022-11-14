@@ -5,7 +5,7 @@ import minerl
 # import coloredlogs
 # coloredlogs.install(logging.DEBUG)
 
-env = gym.make("MineRLBasaltBuildVillageHouse-v0")
+env = gym.make('MineRLObtainDiamondVectorObf-v0')
 obs = env.reset()
 
 done = False
